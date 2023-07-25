@@ -8,14 +8,13 @@ body {
   color: white;
 }
 
-
 .topnav {
   overflow: hidden;
   background-color: #131720;
   padding: 10px;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   display: block;
   color: white;
@@ -26,11 +25,11 @@ body {
   text-transform: uppercase;
 }
 
-.topnav .search-container{
+.topnav .search-container {
   float: right;
 }
 
-form{
+form {
   background-color: #151f30;
   width: 300px;
   height: 43px;
@@ -55,13 +54,36 @@ input {
 
 .column {
   float: left;
-  width: 25%;
+  width: 100%; /* Change to 100% for responsiveness */
   padding: 10px 10px;
 }
 
-.card{
+/* .card {
   border-radius: 19px;
   padding: 15px;
   text-align: center;
   background-color: #151f30;
+} */
+
+/* Media Queries for responsiveness */
+
+/* For tablets and larger devices */
+@media screen and (min-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* For desktop screens */
+@media screen and (min-width: 1024px) {
+  .column {
+    width: 25%;
+  }
+}
+
+/* For larger desktop screens */
+@media screen and (min-width: 1440px) {
+  .column {
+    width: 20%;
+  }
 }
