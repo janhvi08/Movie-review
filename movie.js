@@ -15,6 +15,7 @@ div_new.innerHTML = `
   <div class="row">
     <div class="column">
       <div class="rounded-2xl p-19 items-center bg-slate-500">
+      
           New Review
           <p><strong>Review: </strong>
             <input type="text" id="new_review" value="">
